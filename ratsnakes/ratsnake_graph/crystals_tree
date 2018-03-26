@@ -1,0 +1,35 @@
+#NEXUS
+[R-package APE, Tue Apr 25 18:08:50 2017]
+
+BEGIN TAXA;
+	DIMENSIONS NTAX = 11;
+	TAXLABELS
+		Mimophis_mahfalensis_A_RAN68124_seq2
+		Mimophis_mahfalensis_A_RAX2250_seq2
+		Mimophis_mahfalensis_A_RAN38969_seq2
+		Mimophis_mahfalensis_B_RAX8272_seq1
+		Mimophis_mahfalensis_B_RAN33948_seq1
+		Mimophis_mahfalensis_B_RAN34475_seq1
+		Mimophis_mahfalensis_B_RAN66316_seq2
+		Mimophis_mahfalensis_B_MVZ238849_seq2
+		Mimophis_mahfalensis_B_RAN43542_seq1
+		Mimophis_mahfalensis_B_RAN58929_seq1
+		Mimophis_mahfalensis_B_RAX11694_seq1
+	;
+END;
+BEGIN TREES;
+	TRANSLATE
+		1	Mimophis_mahfalensis_A_RAN68124_seq2,
+		2	Mimophis_mahfalensis_A_RAX2250_seq2,
+		3	Mimophis_mahfalensis_A_RAN38969_seq2,
+		4	Mimophis_mahfalensis_B_RAX8272_seq1,
+		5	Mimophis_mahfalensis_B_RAN33948_seq1,
+		6	Mimophis_mahfalensis_B_RAN34475_seq1,
+		7	Mimophis_mahfalensis_B_RAN66316_seq2,
+		8	Mimophis_mahfalensis_B_MVZ238849_seq2,
+		9	Mimophis_mahfalensis_B_RAN43542_seq1,
+		10	Mimophis_mahfalensis_B_RAN58929_seq1,
+		11	Mimophis_mahfalensis_B_RAX11694_seq1
+	;
+	TREE * UNTITLED = [&R] ((1:23.797305,(2:20.41001994,3:20.41001994):3.387285046):3.585961631,((4:17.35800632,(5:10.53739112,6:10.53739112):6.820615201):6.794199873,(7:18.83989974,(8:12.9446746,(9:4.395282464,(10:2.380110454,11:2.380110454):2.015172009):8.549392128):5.895225152):5.31230645):3.231060429);
+END;

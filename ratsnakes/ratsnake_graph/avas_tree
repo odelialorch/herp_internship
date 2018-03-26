@@ -1,0 +1,51 @@
+#NEXUS
+[R-package APE, Thu Apr 20 18:25:05 2017]
+
+BEGIN TAXA;
+	DIMENSIONS NTAX = 19;
+	TAXLABELS
+		Madagascarophis_meridionalis_RAN43436_seq1
+		Madagascarophis_meridionalis_RAN33946_seq1
+		Madagascarophis_meridionalis_RAX11171_seq1
+		Madagascarophis_meridionalis_RAN58932_seq2
+		Madagascarophis_meridionalis_RAN67644_seq1
+		Madagascarophis_meridionalis_RAX11592_seq2
+		Madagascarophis_meridionalis_RAX11706_seq2
+		Madagascarophis_colubrinus_A_RAN68049_seq1
+		Madagascarophis_colubrinus_A_RAX8932_seq1
+		Madagascarophis_colubrinus_B_RAN39128_seq1
+		Madagascarophis_colubrinus_B_RAN43657_seq2
+		Madagascarophis_colubrinus_B_RAN43809_seq2
+		Madagascarophis_colubrinus_C_RAX12407_seq2
+		Madagascarophis_colubrinus_C_RAX12536_seq2
+		Madagascarophis_colubrinus_C_RAN38878_seq2
+		Madagascarophis_colubrinus_C_RAN55128_seq1
+		Madagascarophis_colubrinus_C_RAN42379_seq2
+		Madagascarophis_colubrinus_C_RAX4402_seq1
+		Madagascarophis_colubrinus_C_RAX4078_seq2
+	;
+END;
+BEGIN TREES;
+	TRANSLATE
+		1	Madagascarophis_meridionalis_RAN43436_seq1,
+		2	Madagascarophis_meridionalis_RAN33946_seq1,
+		3	Madagascarophis_meridionalis_RAX11171_seq1,
+		4	Madagascarophis_meridionalis_RAN58932_seq2,
+		5	Madagascarophis_meridionalis_RAN67644_seq1,
+		6	Madagascarophis_meridionalis_RAX11592_seq2,
+		7	Madagascarophis_meridionalis_RAX11706_seq2,
+		8	Madagascarophis_colubrinus_A_RAN68049_seq1,
+		9	Madagascarophis_colubrinus_A_RAX8932_seq1,
+		10	Madagascarophis_colubrinus_B_RAN39128_seq1,
+		11	Madagascarophis_colubrinus_B_RAN43657_seq2,
+		12	Madagascarophis_colubrinus_B_RAN43809_seq2,
+		13	Madagascarophis_colubrinus_C_RAX12407_seq2,
+		14	Madagascarophis_colubrinus_C_RAX12536_seq2,
+		15	Madagascarophis_colubrinus_C_RAN38878_seq2,
+		16	Madagascarophis_colubrinus_C_RAN55128_seq1,
+		17	Madagascarophis_colubrinus_C_RAN42379_seq2,
+		18	Madagascarophis_colubrinus_C_RAX4402_seq1,
+		19	Madagascarophis_colubrinus_C_RAX4078_seq2
+	;
+	TREE * UNTITLED = [&R] (((1:4.545864733,(2:1.694535873,3:1.694535873):2.851328859):1.661798977,(4:1.911442033,(5:1.142442144,(6:0.7579301978,7:0.7579301978):0.3845119459):0.7689998896):4.296221676):1.150682711,((8:3.401881555,9:3.401881555):2.183272047,((10:4.333612845,(11:3.687931685,12:3.687931685):0.6456811604):0.6060812188,(13:4.233715859,(14:2.120496441,(15:0.7344980501,(16:0.4929593352,(17:0.3097525366,(18:0.2065445432,19:0.2065445432):0.1032079934):0.1832067986):0.2415387148):1.385998392):2.113219416):0.7059782058):0.6454595371):1.773192819);
+END;

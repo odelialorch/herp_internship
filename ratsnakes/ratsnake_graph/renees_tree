@@ -1,0 +1,35 @@
+#NEXUS
+[R-package APE, Tue Apr 25 18:13:54 2017]
+
+BEGIN TAXA;
+	DIMENSIONS NTAX = 11;
+	TAXLABELS
+		Dromicodryas_quadrilineatus_RAN58930_seq2
+		Dromicodryas_quadrilineatus_RAX12547_seq2
+		Dromicodryas_quadrilineatus_RAN43682_seq1
+		Dromicodryas_quadrilineatus_RAX12310_seq1
+		Dromicodryas_quadrilineatus_RAX12491_seq1
+		Dromicodryas_quadrilineatus_RAN68357_seq2
+		Dromicodryas_quadrilineatus_RAX14274_seq1
+		Dromicodryas_quadrilineatus_RAX4079_seq2
+		Dromicodryas_quadrilineatus_RAN38682_seq2
+		Dromicodryas_quadrilineatus_RAX4227_seq2
+		Dromicodryas_quadrilineatus_RAN37932_seq2
+	;
+END;
+BEGIN TREES;
+	TRANSLATE
+		1	Dromicodryas_quadrilineatus_RAN58930_seq2,
+		2	Dromicodryas_quadrilineatus_RAX12547_seq2,
+		3	Dromicodryas_quadrilineatus_RAN43682_seq1,
+		4	Dromicodryas_quadrilineatus_RAX12310_seq1,
+		5	Dromicodryas_quadrilineatus_RAX12491_seq1,
+		6	Dromicodryas_quadrilineatus_RAN68357_seq2,
+		7	Dromicodryas_quadrilineatus_RAX14274_seq1,
+		8	Dromicodryas_quadrilineatus_RAX4079_seq2,
+		9	Dromicodryas_quadrilineatus_RAN38682_seq2,
+		10	Dromicodryas_quadrilineatus_RAX4227_seq2,
+		11	Dromicodryas_quadrilineatus_RAN37932_seq2
+	;
+	TREE * UNTITLED = [&R] (1:10.76929972,((2:10.04813295,3:10.04813295):0.5270901672,(4:10.07127974,(5:9.978120675,(6:1.202182579,(7:0.7208922195,(8:0.2552581906,(9:0.1729425615,(10:0.08552404801,11:0.08552404801):0.08741851349):0.0823156291):0.4656340289):0.4812903597):8.775938096):0.09315906842):0.503943378):0.1940766023);
+END;
